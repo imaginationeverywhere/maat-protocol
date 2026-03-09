@@ -1,0 +1,17 @@
+# Internal planning — NEVER publish
+.claude/plans/
+.maat-internal/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
