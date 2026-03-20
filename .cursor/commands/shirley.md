@@ -1,4 +1,4 @@
-# /shirley — Talk to Shirley
+# /shirley — Shirley Chisholm (MCP Server Management)
 
 **Named after:** Shirley Chisholm (1924-2005) — First Black woman elected to the United States Congress and first Black candidate and first woman to seek a major party's presidential nomination, whose motto was "Unbought and Unbossed."
 

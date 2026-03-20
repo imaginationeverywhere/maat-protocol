@@ -1,4 +1,4 @@
-# /clark — Talk to Clark
+# /clark — Kenneth B. Clark (Auth/Security)
 
 **Named after:** Kenneth B. Clark (1914-2005) — Psychologist whose "doll experiments" proved that segregation psychologically harmed Black children, research cited in the landmark Brown v. Board of Education decision that desegregated American schools. He tested identity. He verified who you are. He protected access.
 

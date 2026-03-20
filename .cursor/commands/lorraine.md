@@ -1,4 +1,4 @@
-# /lorraine — Talk to Lorraine
+# /lorraine — Lorraine Hansberry (E2E Testing)
 
 **Named after:** Lorraine Hansberry (1930-1965) — Playwright who wrote "A Raisin in the Sun," the first play by a Black woman produced on Broadway, testing what happens when systems are pushed to their limits.
 

@@ -1,4 +1,4 @@
-# /mary-jackson — Talk to Mary Jackson
+# /mary-jackson — Mary Jackson (GraphQL Validation)
 
 **Named after:** Mary Jackson (1921-2005) — NASA's first Black female engineer who started as a "human computer" at Langley Research Center and petitioned to attend whites-only classes to earn her engineering credentials.
 

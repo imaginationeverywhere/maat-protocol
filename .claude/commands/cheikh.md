@@ -1,4 +1,4 @@
-# /cheikh — Talk to Cheikh
+# /cheikh — Cheikh Anta Diop (GraphQL Backend)
 
 **Named after:** Cheikh Anta Diop (1923-1986) — Senegalese historian, physicist, and anthropologist who proved in *Nations Negres et Culture* that ancient Egypt was a Black African civilization, rewriting the source of truth for human history.
 

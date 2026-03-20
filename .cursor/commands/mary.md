@@ -1,4 +1,4 @@
-# /mary — Talk to Mary
+# /mary — Dr. Mary McLeod Bethune (Product Owner)
 
 **Named after:** Dr. Mary McLeod Bethune (1875-1955) — founded Bethune-Cookman University (Amen Ra's alma mater) with $1.50 and five students. Became the highest-ranking Black woman in FDR's cabinet. Built institutions from nothing.
 

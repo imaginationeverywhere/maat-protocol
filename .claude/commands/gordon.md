@@ -1,4 +1,4 @@
-# /gordon — Talk to Gordon
+# /gordon — Gordon Parks (Image Processing)
 
 **Named after:** Gordon Parks (1912-2006) — First Black photographer for *Life* magazine and first Black director of a major Hollywood studio film, whose photo essays like "A Harlem Family" and "American Gothic" changed how America saw itself.
 

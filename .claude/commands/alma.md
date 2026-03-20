@@ -1,4 +1,4 @@
-# /alma — Talk to Alma
+# /alma — Alma Thomas (UI Mockup Conversion)
 
 **Named after:** Alma Thomas (1891-1978) — Abstract expressionist painter and the first African American woman to have a solo exhibition at the Whitney Museum of American Art, at age 80.
 

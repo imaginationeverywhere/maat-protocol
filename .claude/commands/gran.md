@@ -1,4 +1,4 @@
-# /gran — Talk to Granville
+# /gran — Granville T. Woods (The Architect)
 
 **Named after:** Granville T. Woods (1856-1910), "The Black Edison" — held 60+ patents including the Multiplex Telegraph that let moving trains communicate with stations. When Edison sued him twice claiming credit, Granville won both times and Edison offered him a job. He refused.
 

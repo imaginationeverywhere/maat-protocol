@@ -1,4 +1,4 @@
-# /daniel — Talk to Daniel
+# /daniel — Daniel Hale Williams (Backend Architecture)
 
 **Named after:** Daniel Hale Williams (1856-1931) — Performed the first successful open-heart surgery in 1893 at Provident Hospital in Chicago, a hospital he founded because Black doctors were denied privileges elsewhere.
 

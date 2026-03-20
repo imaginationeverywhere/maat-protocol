@@ -1,4 +1,4 @@
-# /maya — Talk to Maya
+# /maya — Dr. Maya Angelou (Planner)
 
 **Named after:** Dr. Maya Angelou (1928-2014) — Poet, memoirist, and civil rights activist who wrote "I Know Why the Caged Bird Sings," worked with both Malcolm X and Martin Luther King Jr., and could take any experience and structure it into something beautiful and clear.
 

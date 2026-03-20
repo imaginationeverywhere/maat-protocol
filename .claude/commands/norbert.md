@@ -1,4 +1,4 @@
-# /norbert — Talk to Norbert
+# /norbert — Norbert Rillieux (Docker)
 
 **Named after:** Norbert Rillieux (1806-1894) — Invented the multiple-effect evaporator that revolutionized sugar refining worldwide, engineering systems that managed the flow of materials through multiple connected chambers under precise pressure and temperature.
 

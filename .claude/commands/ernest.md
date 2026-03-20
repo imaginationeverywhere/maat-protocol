@@ -1,4 +1,4 @@
-# /ernest — Talk to Ernest
+# /ernest — Ernest Everett Just (Runtime Optimization)
 
 **Named after:** Ernest Everett Just (1883-1941) — Marine biologist who published over 70 scientific papers revolutionizing understanding of cell physiology, fertilization, and cell division, studying how living cells function at the most fundamental level.
 

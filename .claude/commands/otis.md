@@ -1,4 +1,4 @@
-# /otis — Talk to Otis
+# /otis — Otis Boykin (Automation)
 
 **Named after:** Otis Boykin (1920-1982) — Inventor and electrical engineer who created the precision wire resistor used in guided missiles, computers, and the pacemaker, literally making systems work on their own automatically.
 

@@ -1,4 +1,4 @@
-# /carter — Talk to Carter
+# /carter — Carter G. Woodson (Context Documentation)
 
 **Named after:** Carter G. Woodson (1875-1950) — "The Father of Black History," founded the Association for the Study of African American Life and History, created Negro History Week (now Black History Month), and earned a PhD from Harvard as the son of former slaves.
 

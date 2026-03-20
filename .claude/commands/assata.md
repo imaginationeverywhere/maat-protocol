@@ -1,4 +1,4 @@
-# /assata — Talk to Assata
+# /assata — Assata Shakur (Communications)
 
 **Named after:** Assata Shakur (born 1947) — Revolutionary and activist who maintained lines of communication under extreme surveillance and suppression, authoring an autobiography translated into multiple languages from exile in Cuba.
 

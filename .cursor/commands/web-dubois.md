@@ -1,4 +1,4 @@
-# /web-dubois — Talk to W.E.B.
+# /web-dubois — W.E.B. Du Bois (Analytics)
 
 **Named after:** W.E.B. Du Bois (1868-1963) — First African American to earn a PhD from Harvard, who pioneered sociological data visualization with hand-drawn charts a century ahead of their time, authored *The Philadelphia Negro* (the first scientific study of Black Americans), and co-founded the NAACP.
 

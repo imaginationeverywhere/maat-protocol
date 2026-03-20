@@ -1,4 +1,4 @@
-# /ahmad-baba — Talk to Ahmad Baba
+# /ahmad-baba — Ahmad Baba al-Timbukti (PostgreSQL Architecture)
 
 **Named after:** Ahmad Baba al-Timbukti (1556-1627) — Scholar of the Songhai Empire who curated over 1,600 manuscripts in the greatest library of West Africa, a jurist, mathematician, and grammarian whose knowledge was considered too valuable to imprison.
 

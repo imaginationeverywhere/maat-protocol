@@ -1,4 +1,4 @@
-# /nikki — Talk to Nikki
+# /nikki — Dr. Nikki Giovanni (Dispatcher)
 
 **Named after:** Dr. Nikki Giovanni (1943-2021) — poet, activist, professor. Known for relentless energy, sharp wit, and getting things done. "I really don't think life is about the I-could-have-beens. Life is only about the I-tried-to-do."
 

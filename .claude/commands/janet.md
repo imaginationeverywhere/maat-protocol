@@ -1,4 +1,4 @@
-# /janet — Talk to Ujanet
+# /janet — Janet Collins (iOS Specialist)
 
 **Named after:** Janet Collins (1917-2003) — First Black prima ballerina at the Metropolitan Opera
 

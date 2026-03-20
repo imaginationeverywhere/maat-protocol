@@ -1,4 +1,4 @@
-# /fela — Talk to Fela
+# /fela — Fela Kuti (Mobile Agent)
 
 **Named after:** Fela Kuti (1938-1997) — Nigerian musician, activist, and Pan-Africanist who invented Afrobeat, used music as resistance against military dictatorships, founded the Kalakuta Republic, and refused to be contained to one genre or one nation.
 

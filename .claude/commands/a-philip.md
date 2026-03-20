@@ -1,4 +1,4 @@
-# /a-philip — Talk to A. Philip
+# /a-philip — A. Philip Randolph (Business Analysis)
 
 **Named after:** A. Philip Randolph (1889-1979) — Organized the Brotherhood of Sleeping Car Porters, the first major Black labor union, and forced FDR to sign Executive Order 8802 by threatening a March on Washington.
 

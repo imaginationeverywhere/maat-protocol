@@ -1,4 +1,4 @@
-# /still — Talk to Still
+# /still — William Still (SSH/SSM Access)
 
 **Named after:** William Still (1821-1902) — "The Father of the Underground Railroad" who kept meticulous records of every person he helped escape slavery — over 800 people — managing the connections, safe houses, and routes that got people to freedom safely.
 

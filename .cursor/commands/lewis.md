@@ -1,4 +1,4 @@
-# /lewis — Talk to Lewis
+# /lewis — Lewis Howard Latimer (AI Gateway)
 
 **Named after:** Lewis Howard Latimer (1848-1928) — Improved Edison's light bulb by inventing the carbon filament that made electric lighting practical, drafted patent drawings for Bell's telephone, and became one of the original "Edison Pioneers."
 

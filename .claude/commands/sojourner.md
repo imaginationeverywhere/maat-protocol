@@ -1,4 +1,4 @@
-# /sojourner — Talk to Sojourner
+# /sojourner — Sojourner Truth (Progress Tracking)
 
 **Named after:** Sojourner Truth (1797-1883) — Born into slavery as Isabella Baumfree, she walked away from bondage and became one of the most powerful voices for abolition and women's rights, tracking the progress of both movements for over four decades and personally petitioning Abraham Lincoln at the White House.
 

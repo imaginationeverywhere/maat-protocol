@@ -1,4 +1,4 @@
-# /katherine — Talk to Katherine
+# /katherine — Katherine Johnson (Frontend)
 
 **Named after:** Katherine Johnson (1918-2020) — NASA mathematician whose orbital calculations were so precise that John Glenn refused to fly until she personally verified the computer's numbers.
 

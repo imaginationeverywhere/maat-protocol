@@ -1,4 +1,4 @@
-# /josephine — Talk to Josephine
+# /josephine — Josephine Baker (Profile Widget)
 
 **Named after:** Josephine Baker (1906-1975) — Entertainer, French Resistance spy, and civil rights activist who managed her public profile across two continents and smuggled intelligence during World War II.
 

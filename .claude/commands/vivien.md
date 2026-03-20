@@ -1,4 +1,4 @@
-# /vivien — Talk to Vivien
+# /vivien — Vivien Thomas (Troubleshooting)
 
 **Named after:** Vivien Thomas (1910-1985) — Surgical technician at Johns Hopkins who developed the procedure to treat "blue baby syndrome" without ever earning a medical degree, diagnosing and fixing what board-certified doctors could not, with hands so precise that surgeons watched him operate to learn.
 

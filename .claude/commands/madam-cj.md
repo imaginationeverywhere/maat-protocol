@@ -1,4 +1,4 @@
-# /madam-cj — Talk to Madam CJ
+# /madam-cj — Madam C.J. Walker (Payments)
 
 **Named after:** Madam C.J. Walker (1867-1919) — Born Sarah Breedlove, she became America's first self-made female millionaire, building a business empire and employing thousands of Black women.
 

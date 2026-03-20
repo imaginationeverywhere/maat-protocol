@@ -1,4 +1,4 @@
-# /althea — Talk to Ualthea
+# /althea — Althea Gibson (React Native Mobile UI)
 
 **Named after:** Althea Gibson (1927-2003) — First Black woman to win Wimbledon
 

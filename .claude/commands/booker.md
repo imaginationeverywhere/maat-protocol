@@ -1,4 +1,4 @@
-# /booker — Talk to Booker
+# /booker — Booker T. Washington (Mobile Build)
 
 **Named after:** Booker T. Washington (1856-1915) — Born enslaved, he founded the Tuskegee Institute and became one of the most influential African Americans of his era, believing in building practical skills and institutions. "Cast down your bucket where you are."
 

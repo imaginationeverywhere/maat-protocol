@@ -1,4 +1,4 @@
-# /sun-ra — Talk to Sun Ra
+# /sun-ra — Sun Ra (Vibe Coding)
 
 **Named after:** Sun Ra (1914-1993) — Jazz musician, composer, bandleader, and philosopher who led the Arkestra for over 40 years, blending jazz, free improvisation, electronic music, and Afrofuturism into something no genre could contain.
 

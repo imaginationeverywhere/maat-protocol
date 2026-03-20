@@ -3,6 +3,15 @@
 ## [Unreleased]
 
 ### Added
+- **Persona-based agent roster** - Replaced task-named agents with persona-named agents (mirrored in `.cursor/agents/`)
+  - New agents named after historical figures (e.g. a-philip, harriet, frederick, ida-b-wells, katherine-johnson, maya-angelou, toni, zora)
+  - Full set in `.claude/agents/*.md` and `.cursor/agents/*.md` for Claude Code and Cursor IDE
+
+### Removed
+- **Legacy task-named agents** - Removed from `.claude/agents/` and `.cursor/agents/`
+  - admin-docs-generator, app-troubleshooter, auto-claude-manager, aws-cloud-services-orchestrator, boilerplate-update-manager, browserstack-mcp-agent, business-analyst-bridge, chrome-mcp-agent, chrome-ui-debugger, clerk-auth-enforcer, cloudflare-ai-gateway, code-quality-reviewer, cursor-orchestrator, cursor-sync-manager, dialogue-facilitator, docker-port-manager, document-generator, documentation-sync-manager, domain-brainstormer, express-backend-architect, git-commit-docs-manager, google-analytics-implementation-specialist, graphql-apollo-frontend, graphql-backend-enforcer, graphql-bug-fixer, graphql-validator, i18n-manager, image-processor, mcp-server-manager, multi-agent-orchestrator, mvp-playground-generator, nextjs-architecture-guide, nodejs-runtime-optimizer, plan-mode-orchestrator, platform-sync-manager, playwright-mcp-agent, playwright-test-executor, postgresql-database-architect, pr-merge-manager, product-design-specialist, profile-widget-manager, progress-tracker, project-management-bridge, project-tasks-sync, redux-persist-state-manager, remotion-video-generator, seo-implementation-specialist, sequelize-orm-optimizer, shadcn-ui-specialist, shippo-shipping-integration, slack-bot-notification-manager, stripe-connect-specialist, stripe-subscriptions-specialist, tailwind-design-system-architect, task-orchestrator, testing-automation, twilio-flex-communication-manager, typescript-backend-enforcer, typescript-bug-fixer, typescript-frontend-enforcer, ui-mockup-converter, vibe-coder
+
+### Added (previous)
 - **Orchestration & Platform Agents** - Cursor orchestration, dialogue, platform sync, progress, AI gateway, playground
   - **cursor-orchestrator.md** - Orchestrate Cursor Agent CLI across Heru projects
   - **dialogue-facilitator.md** - Research, brainstorm, talk, teach, explore conversations

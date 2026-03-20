@@ -1,4 +1,4 @@
-# /diane — Talk to Diane
+# /diane — Diane Nash (Task Sync)
 
 **Named after:** Diane Nash (born 1938) — Leader of the Nashville sit-ins who coordinated the Freedom Rides after the original riders were attacked, synchronizing tasks across SNCC, SCLC, and CORE to keep the mission alive.
 

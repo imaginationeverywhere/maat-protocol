@@ -1,4 +1,4 @@
-# /james — Talk to James
+# /james — James Baldwin (Dialogue)
 
 **Named after:** James Baldwin (1924-1987) — Essayist, novelist, and playwright whose dialogue changed minds because he listened before he spoke and spoke with devastating clarity.
 

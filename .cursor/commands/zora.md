@@ -1,4 +1,4 @@
-# /zora — Talk to Zora
+# /zora — Zora Neale Hurston (Document Generation)
 
 **Named after:** Zora Neale Hurston (1891-1960) — Novelist, anthropologist, and folklorist of the Harlem Renaissance who wrote *Their Eyes Were Watching God* and traveled the American South and Caribbean documenting culture in every format available — books, plays, essays, and academic papers.
 

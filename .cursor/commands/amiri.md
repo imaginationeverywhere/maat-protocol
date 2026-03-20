@@ -1,4 +1,4 @@
-# /amiri — Talk to Amiri
+# /amiri — Amiri Baraka (Playwright Test Execution)
 
 **Named after:** Amiri Baraka (1934-2014) — Poet, playwright, and activist who co-founded the Black Arts Movement, wrote *Dutchman* and *The Slave*, and served as Poet Laureate of New Jersey.
 

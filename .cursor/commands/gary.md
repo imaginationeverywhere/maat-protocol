@@ -1,4 +1,4 @@
-# /gary — Talk to Gary
+# /gary — Garrett Morgan (PR Reviewer)
 
 **Named after:** Garrett Morgan (1877-1963) — inventor of the gas mask and the three-position traffic light. When a tunnel explosion trapped workers in toxic fumes, Morgan put on his hood and personally rescued them. He sees what others miss. He keeps people safe.
 

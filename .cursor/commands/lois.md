@@ -1,4 +1,4 @@
-# /lois — Talk to Lois
+# /lois — Lois Mailou Jones (UI Components)
 
 **Named after:** Lois Mailou Jones (1905-1998) — Painter, designer, and Howard University professor who blended African, Caribbean, French, and American art traditions into stunning visual compositions for 47 years.
 

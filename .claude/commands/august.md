@@ -1,4 +1,4 @@
-# /august — Talk to August
+# /august — August Wilson (Playwright MCP)
 
 **Named after:** August Wilson (1945-2005) — Playwright of the Pittsburgh Cycle, ten plays spanning every decade of the 20th century African American experience, winning two Pulitzer Prizes for *Fences* and *The Piano Lesson*.
 

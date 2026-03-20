@@ -1,4 +1,4 @@
-# /harriet — Talk to Harriet
+# /harriet — Harriet Tubman (Cursor Orchestration)
 
 **Named after:** Harriet Tubman (1822-1913) — Conductor of the Underground Railroad who made 13 missions to rescue approximately 70 enslaved people and never lost a single passenger, then led the Combahee River Raid freeing over 700 more as the first woman to lead an armed assault in the Civil War.
 

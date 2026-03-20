@@ -3,6 +3,14 @@
 ## [Unreleased]
 
 ### Added
+- **Persona-based and team commands** - New command set (mirrored in `.cursor/commands/`)
+  - Persona-named commands (e.g. a-philip, harriet, frederick, ida, maya, toni, zora) matching agent roster
+  - Team commands: aws-team, backend-team, business-team, creative-team, devops-team, frontend-team, mobile-team, qa-team, qc1-team, security-team, tech-team
+  - Session/vault: session-start, session-end, vault-sync, dev-sessions, brain-sync
+  - Project: heru-onboard, create-agent, dispatch-agent, council, family, ship, write-brd, write-prd, clara-research, legal-doc, security-scan
+  - Scripts: org-gate.sh (GitHub org gate), cloud-sync-herus.sh, wentworth-daily-scan.sh
+
+### Added (previous)
 - **Auset Orchestration & Platform Commands** - Cursor dispatch, sync, progress, gap analysis, dialogue, AI gateway
   - **dispatch-cursor.md**, **orchestrate.md** - Cursor Agent CLI orchestration
   - **sync-herus.md** - Push platform changes to all Heru projects

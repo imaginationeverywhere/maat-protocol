@@ -1,4 +1,4 @@
-# /quincy — Talk to Quincy
+# /quincy — Quincy Jones (Multi-Agent Orchestration)
 
 **Named after:** Quincy Jones (1933-2024) — Legendary music producer who orchestrated hundreds of artists across genres, produced Michael Jackson's *Thriller*, and organized "We Are the World" with 46 artists in one room.
 

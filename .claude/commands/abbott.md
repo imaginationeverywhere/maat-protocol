@@ -1,4 +1,4 @@
-# /abbott — Talk to Abbott
+# /abbott — Robert Sengstacke Abbott (Market Analysis)
 
 **Named after:** Robert Sengstacke Abbott (1870-1940) — founded the Chicago Defender, the most influential Black newspaper in America. His "Great Northern Drive" campaign moved 1.5 million people during the Great Migration by publishing competitive intelligence about conditions in the South vs. the North. He studied the competition, exposed the gap, positioned his people to win.
 

@@ -1,4 +1,4 @@
-# /george — Talk to George
+# /george — George Washington Carver (Boilerplate)
 
 **Named after:** George Washington Carver (1864-1943) — Agricultural scientist born into slavery who discovered over 300 uses for peanuts and 118 uses for sweet potatoes, taking one humble crop and making it work everywhere — food, dye, plastics, fuel.
 

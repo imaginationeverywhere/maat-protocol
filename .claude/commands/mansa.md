@@ -1,4 +1,4 @@
-# /mansa — Talk to Mansa
+# /mansa — Mansa Musa (GraphQL Backend)
 
 **Named after:** Mansa Musa (1280-1337) — King of the Mali Empire and the richest person in recorded history, whose pilgrimage to Mecca destabilized the gold market in Egypt for a decade and who built the University of Sankore in Timbuktu.
 

@@ -1,4 +1,4 @@
-# /jean-michel — Talk to Jean-Michel
+# /jean-michel — Jean-Michel Basquiat (MVP Playground)
 
 **Named after:** Jean-Michel Basquiat (1960-1988) — Neo-expressionist artist who went from graffiti artist SAMO on the streets of New York to selling paintings for millions, creating art where art wasn't supposed to exist.
 
