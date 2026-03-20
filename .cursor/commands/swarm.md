@@ -54,16 +54,32 @@ For each gap found, create a task:
 - Acceptance criteria
 ```
 
-### Step 4: Dispatch Agents
+### Step 4: Dispatch Agents via Cursor (NOT Claude subagents)
+
+**CRITICAL: ALL coding tasks MUST use Cursor Agent CLI, NOT Claude Code subagents.**
+Claude Code is the orchestrator — it dispatches Cursor agents to do the work.
+
+```bash
+# Use /dispatch-cursor to send tasks to Cursor agents:
+/dispatch-cursor --agent katherine --task "Convert landing page from Magic Patterns"
+/dispatch-cursor --agent daniel --task "Create Express server with Clerk auth middleware"
+/dispatch-cursor --agent cheikh --task "Build GraphQL schema from PRD"
+
+# Or use the cursor-orchestration skill directly:
+# 1. Write a prompt file for each task
+# 2. Launch cursor-agent-cli with the prompt
+# 3. Collect results
 ```
-Use /dispatch-agent or direct agent commands:
-- /katherine "Convert landing page from Magic Patterns"
-- /daniel "Create Express server with Clerk auth middleware"
-- /cheikh "Build GraphQL schema from PRD"
-- /imhotep "Create Sequelize models and migrations"
-- /rosa "Implement Clerk authentication"
-- /madam-cj "Set up Stripe subscriptions"
-```
+
+**Why Cursor, not Claude subagents:**
+- Cursor agents use the flat-rate subscription (no per-token cost)
+- Claude Code Max usage is limited — save it for orchestration
+- Cursor Auto/Composer handles coding tasks efficiently
+- Cursor Premium for complex tasks (auth, payments, multi-file)
+
+**Model assignment from sprint-tasks.md:**
+- "Cursor Auto" → cursor-agent-cli with default model
+- "Cursor Premium" → cursor-agent-cli with premium flag (needs Amen Ra approval)
 
 ### Step 5: Track & Report
 ```
