@@ -1,4 +1,4 @@
-# /ossie — Ossie Davis (Agent Deployment)
+# /ossie — Talk to Ossie
 
 **Named after:** Ossie Davis (1917-2005) — Actor, director, playwright, and civil rights activist who delivered the eulogy for both Malcolm X and Martin Luther King Jr., married to Ruby Dee for 56 years -- together they were the conscience of Black Hollywood.
 

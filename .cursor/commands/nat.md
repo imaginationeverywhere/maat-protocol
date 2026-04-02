@@ -1,4 +1,4 @@
-# /nat — Nat Turner (TypeScript Bug Fixer)
+# /nat — Talk to Nat
 
 **Named after:** Nat Turner (1800-1831) — Led the most significant slave rebellion in American history in Southampton County, Virginia in 1831, shaking the institution of slavery to its foundation and accelerating the abolitionist movement.
 

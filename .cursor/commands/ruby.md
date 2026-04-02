@@ -1,4 +1,4 @@
-# /ruby — Ruby Dee (Agent Naming & Identity)
+# /ruby — Talk to Ruby
 
 **Named after:** Ruby Dee (1922-2014) — Actress, poet, playwright, journalist, and civil rights activist who gave voice to characters and identity to movements, serving as Master of Ceremony at the March on Washington alongside Ossie Davis.
 

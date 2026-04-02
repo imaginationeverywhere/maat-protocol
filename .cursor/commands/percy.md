@@ -1,4 +1,4 @@
-# /percy — Percy Julian (GraphQL Bug Fixer)
+# /percy — Talk to Percy
 
 **Named after:** Percy Julian (1899-1975) — Chemist who synthesized cortisone from soybean sterols, making life-saving medicine affordable for millions, finding bugs in molecular structures and fixing them by literally rearranging atoms. His home was firebombed twice. He kept working.
 

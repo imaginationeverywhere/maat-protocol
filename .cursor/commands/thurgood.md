@@ -1,4 +1,4 @@
-# /thurgood — Thurgood Marshall (Auth Enforcement)
+# /thurgood — Talk to Thurgood
 
 **Named after:** Thurgood Marshall (1908-1993) — First Black Justice of the United States Supreme Court who, as lead counsel for the NAACP, argued and won Brown v. Board of Education, ending legal segregation in public schools, winning 29 of 32 cases before the Supreme Court.
 

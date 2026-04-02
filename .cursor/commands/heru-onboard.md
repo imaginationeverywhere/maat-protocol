@@ -54,14 +54,39 @@ Ensure the project's CLAUDE.md includes:
 - Link back to central hub
 - Project-specific context (what this Heru does, who the client is)
 
-### Step 5: Pull Project Context from Vault
+### Step 5: Verify or Provision Neon Database
+Check if this Heru has a Neon database. If not, create one:
+
+```bash
+# List existing Neon projects
+neonctl projects list --org-id org-young-hall-74190661 --output json
+
+# If project NOT found, create it:
+neonctl projects create --name "${PROJECT}" --region-id aws-us-east-1 --org-id org-young-hall-74190661 --output json
+
+# Get connection string
+neonctl connection-string --project-id <id> --org-id org-young-hall-74190661
+
+# Write to .env files (if backend/ exists)
+echo "DATABASE_URL=<connection-string>" >> backend/.env.local
+echo "DATABASE_URL=<connection-string>" >> backend/.env.develop
+
+# For production (create branch if needed)
+neonctl branches create --name production --project-id <id> --org-id org-young-hall-74190661
+neonctl connection-string --project-id <id> --branch production --org-id org-young-hall-74190661
+echo "DATABASE_URL=<prod-connection-string>" >> backend/.env.production
+```
+
+**ALWAYS use `--org-id org-young-hall-74190661`** (Quik Nation org).
+
+### Step 6: Pull Project Context from Vault
 Check `~/auset-brain/` for existing context about this project:
 - Client requirements (from Heru Discovery / Mary)
 - Previous session notes
 - Sprint priorities
 - Any decisions or feedback specific to this Heru
 
-### Step 6: Register in Heru Registry
+### Step 7: Register in Heru Registry
 Add a row to `~/auset-brain/heru-registry.md` if not already there.
 
 ### Step 7: Verify with /session-start

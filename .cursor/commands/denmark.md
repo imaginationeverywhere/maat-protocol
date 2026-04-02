@@ -1,4 +1,4 @@
-# /denmark — Denmark Vesey (TypeScript Backend Enforcer)
+# /denmark — Talk to Denmark
 
 **Named after:** Denmark Vesey (1767-1822) — Organized one of the most ambitious slave revolts in American history in Charleston, South Carolina, with military-level discipline and strict secrecy among thousands of conspirators.
 

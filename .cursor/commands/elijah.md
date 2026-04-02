@@ -1,4 +1,4 @@
-# /elijah — Elijah McCoy (Cloud Orchestration)
+# /elijah — Talk to Elijah
 
 **Named after:** Elijah McCoy (1844-1929) — "The Real McCoy." Invented the automatic lubricator for steam engines, holding 57 patents. His inventions were so superior that buyers insisted on "the real McCoy" rather than imitations.
 

@@ -1,4 +1,4 @@
-# /virgil — Virgil Abloh (Product Design)
+# /virgil — Talk to Virgil
 
 **Named after:** Virgil Abloh (1980-2021) — Designer, architect, DJ, and artistic director of Louis Vuitton's menswear collection who founded Off-White and became the first person of African descent to lead a major French fashion house, redefining luxury fashion by bringing streetwear aesthetics to high fashion.
 

@@ -8,10 +8,10 @@ Execute these commands to gather task data:
 
 ```bash
 # Check for tasks.json
-cat .auto-claude/tasks.json 2>/dev/null | jq '.tasks[] | select(.status == "planning")'
+cat docs/status/tasks.json 2>/dev/null | jq '.tasks[] | select(.status == "planning")'
 
 # List planning task files
-ls -la .auto-claude/planning-tasks/*.md 2>/dev/null
+ls -la docs/status/planning-tasks/*.md 2>/dev/null
 
 # Check GitHub issues
 gh issue list --label "auto-claude,planning" --state open --json number,title,labels,assignees 2>/dev/null
@@ -63,7 +63,7 @@ If `--take <ID>` is provided:
 ## Step 5: Handle --verbose Flag
 
 If `--verbose <ID>` is provided:
-1. Read the full task file from `.auto-claude/planning-tasks/`
+1. Read the full task file from `docs/status/planning-tasks/`
 2. Display complete task details including:
    - Description
    - Acceptance criteria

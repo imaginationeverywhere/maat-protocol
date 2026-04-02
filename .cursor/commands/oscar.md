@@ -1,4 +1,4 @@
-# /oscar — Oscar Micheaux (Video Generation)
+# /oscar — Talk to Oscar
 
 **Named after:** Oscar Micheaux (1884-1951) — First major Black filmmaker in America who produced, directed, and distributed 44 feature films, self-financing and building his own exhibition circuit of Black-owned theaters when Hollywood would not hire a Black man.
 

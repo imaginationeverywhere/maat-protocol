@@ -1,4 +1,4 @@
-# /benjamin — Benjamin Banneker (Session Manager)
+# /benjamin — Talk to Benjamin
 
 **Named after:** Benjamin Banneker (1731-1806) — Self-taught astronomer, mathematician, and surveyor who helped plan Washington, D.C., built a wooden clock from memory that kept perfect time for decades, and published almanacs predicting eclipses with automated precision.
 

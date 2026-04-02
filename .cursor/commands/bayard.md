@@ -1,4 +1,4 @@
-# /bayard — Bayard Rustin (Code Quality)
+# /bayard — Talk to Bayard
 
 **Named after:** Bayard Rustin (1912-1987) — Chief organizer of the 1963 March on Washington for Jobs and Freedom, coordinating 250,000 people with flawless logistics and zero incidents.
 

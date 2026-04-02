@@ -1,4 +1,4 @@
-# /anna — Anna Julia Cooper (Heru Onboarding)
+# /anna — Talk to Anna
 
 **Named after:** Anna Julia Cooper (1858-1964) — born enslaved, became one of America's most important Black scholars. "A Voice from the South" was the first articulation of Black feminism. PhD from the Sorbonne at age 65. Principal of M Street High School, she prepared generations for excellence.
 

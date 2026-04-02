@@ -1,4 +1,4 @@
-# /toni — Toni Morrison (State Management)
+# /toni — Talk to Toni
 
 **Named after:** Toni Morrison (1931-2019) — Nobel Prize laureate in Literature whose novels *Beloved*, *Song of Solomon*, and *The Bluest Eye* preserved and persisted the state of Black American memory, and who shaped literature as an editor at Random House before becoming a novelist.
 

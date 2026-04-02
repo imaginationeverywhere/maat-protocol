@@ -44,7 +44,14 @@ Write `memory/session-checkpoint.md` with:
 aws s3 sync ~/auset-brain/ s3://auset-brain-vault/ --exclude ".git/*" --exclude ".gate-token" --exclude "*.sh" --quiet
 ```
 
-### Step 6: Post to Slack (if significant work)
+### Step 6: Report to Headquarters via Live Feed (NON-NEGOTIABLE)
+Post a structured completion report to the live feed so HQ knows what you accomplished:
+```bash
+echo "$(date '+%H:%M:%S') | $(basename $(pwd)) | SESSION END | ${SWARM_TEAM:-Unknown} | Completed: <1-2 line summary of what was done> | Next: <what the next session should pick up>" >> ~/auset-brain/Swarms/live-feed.md
+```
+This is how HQ tracks every team. If you don't report, HQ doesn't know you're done. NO EXCEPTIONS.
+
+### Step 7: Post to Slack (if significant work)
 If substantial work was done, post summary to #maat-brain:
 ```bash
 SLACK_TOKEN=$(aws ssm get-parameter --name '/quik-nation/shared/SLACK_BOT_TOKEN' --with-decryption --query 'Parameter.Value' --output text --region us-east-1)

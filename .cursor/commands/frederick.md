@@ -1,4 +1,4 @@
-# /frederick — Frederick Douglass (Sync Management)
+# /frederick — Talk to Frederick
 
 **Named after:** Frederick Douglass (1818-1895) — Escaped slavery and became the most influential African American of the 19th century, publishing three autobiographies and the newspaper *The North Star*, synchronizing the abolitionist message across the nation.
 

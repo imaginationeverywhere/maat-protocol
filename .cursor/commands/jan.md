@@ -1,4 +1,4 @@
-# /jan — Jan Ernst Matzeliger (ORM Optimization)
+# /jan — Talk to Jan
 
 **Named after:** Jan Ernst Matzeliger (1852-1889) — Invented the shoe lasting machine that increased production from 50 to 700 pairs per day, revolutionizing manufacturing efficiency.
 

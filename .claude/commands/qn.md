@@ -1,0 +1,11 @@
+# /qn — Send to qn session
+
+When invoked with arguments, run this single command and confirm briefly:
+
+```bash
+.claude/scripts/session-registry.sh wake "<TEAM>" "<arguments>"
+```
+
+Team mapping: hq=Headquarters, pkgs=Packages, wcr=WCR, qn=QuikNation, st=Seeking, s962=962, qcr=QCR, qcarry=Carry, fmo=FMO, devops=DevOps
+
+No extra logging. No discover step. Just wake and confirm "Sent."

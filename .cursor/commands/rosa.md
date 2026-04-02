@@ -1,4 +1,4 @@
-# /rosa — Rosa Parks (Auth/RBAC)
+# /rosa — Talk to Rosa
 
 **Named after:** Rosa Parks (1913-2005) — "The First Lady of Civil Rights" whose refusal to give up her bus seat in Montgomery, Alabama sparked the Montgomery Bus Boycott and changed America forever.
 

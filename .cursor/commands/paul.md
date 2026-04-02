@@ -1,4 +1,4 @@
-# /paul — Paul Cuffe (Shipping Integration)
+# /paul — Talk to Paul
 
 **Named after:** Paul Cuffe (1759-1817) — Wealthy Black shipowner, merchant, and Pan-Africanist who built his own fleet of ships and established trade routes between America and Sierra Leone, the wealthiest African American of his era.
 

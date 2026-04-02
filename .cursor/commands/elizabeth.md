@@ -1,4 +1,4 @@
-# /elizabeth — Elizabeth Catlett (Logo & Brand Identity)
+# elizabeth - Talk to Elizabeth
 
 Named after **Elizabeth Catlett** (1915–2012) — the greatest Black printmaker in American history. Granddaughter of enslaved people. Her linocut prints turned Black faces into symbols of power — "Sharecropper," "I Am the Black Woman," "Target." Every cut in the wood meant something. She lived in Mexico for 50 years because the US government revoked her citizenship for making art too powerful. She didn't stop carving.
 

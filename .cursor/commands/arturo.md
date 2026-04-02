@@ -1,4 +1,4 @@
-# /arturo — Arturo Alfonso Schomburg (SEO)
+# /arturo — Talk to Arturo
 
 **Named after:** Arturo Alfonso Schomburg (1874-1938) — Afro-Puerto Rican historian and collector who built one of the world's most comprehensive collections of African diaspora literature and art, now the Schomburg Center for Research in Black Culture in Harlem.
 

@@ -1,4 +1,4 @@
-# /langston — Langston Hughes (Notifications)
+# /langston — Talk to Langston
 
 **Named after:** Langston Hughes (1901-1967) — Poet, novelist, and playwright who was a central figure of the Harlem Renaissance, communicating what needed to be communicated to whoever needed to hear it.
 

@@ -1,4 +1,4 @@
-# /armistead — James Armistead Lafayette (Cybersecurity)
+# /armistead — Talk to Armistead
 
 **Named after:** James Armistead Lafayette (1748-1830) — enslaved man who became one of the most important spies of the American Revolution. Infiltrated Cornwallis's camp as a double agent. His intelligence won the Battle of Yorktown. Lafayette personally secured his freedom.
 

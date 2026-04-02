@@ -1,4 +1,4 @@
-# /augusta — Augusta Savage (GraphQL Frontend)
+# /augusta — Talk to Augusta
 
 **Named after:** Augusta Savage (1892-1962) — Harlem Renaissance sculptor whose 16-foot sculpture *The Harp* was the most popular attraction at the 1939 World's Fair, and who founded the Savage Studio of Arts and Crafts teaching a generation of Black artists.
 

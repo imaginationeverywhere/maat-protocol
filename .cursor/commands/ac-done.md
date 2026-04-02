@@ -8,7 +8,7 @@ Execute these commands to gather data:
 
 ```bash
 # Check tasks.json for done status
-cat .auto-claude/tasks.json 2>/dev/null | jq '.tasks[] | select(.status == "done")'
+cat docs/status/tasks.json 2>/dev/null | jq '.tasks[] | select(.status == "done")'
 
 # Check merged PRs with auto-claude label
 gh pr list --state merged --label "auto-claude" --json number,title,mergedAt,headRefName --limit 20 2>/dev/null

@@ -1,4 +1,4 @@
-# /alex — Alex Haley (Documentation Sync)
+# /alex — Talk to Alex
 
 **Named after:** Alex Haley (1921-1992) — Author of *Roots: The Saga of an American Family* who traced his ancestry across seven generations and two continents, and co-wrote *The Autobiography of Malcolm X*.
 

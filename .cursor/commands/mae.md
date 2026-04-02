@@ -1,4 +1,4 @@
-# /mae — Mae C. Jemison (Cross-Browser Testing)
+# /mae — Talk to Mae
 
 **Named after:** Mae C. Jemison (born 1956) — First Black woman to travel to space aboard the Space Shuttle Endeavour in 1992, a chemical engineer, physician, and Peace Corps medical officer.
 

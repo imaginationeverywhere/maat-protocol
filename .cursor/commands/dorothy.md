@@ -1,4 +1,4 @@
-# /dorothy — Dorothy Height (Git Documentation)
+# /dorothy — Talk to Dorothy
 
 **Named after:** Dorothy Height (1912-2010) — "Godmother of the Civil Rights Movement," president of the National Council of Negro Women for 40 years, who stood on the platform at the March on Washington alongside King, Randolph, and Lewis as the only woman.
 

@@ -1,4 +1,4 @@
-# /nina — Nina Simone (Slack Notifications)
+# /nina — Talk to Nina
 
 **Named after:** Nina Simone (1933-2003) — "High Priestess of Soul," classically trained pianist who became one of the most powerful voices in music and civil rights, broadcasting her message through every channel available -- concerts, records, television, international tours.
 

@@ -1,4 +1,4 @@
-# /wangari — Wangari Maathai (Next.js Architecture)
+# /wangari — Talk to Wangari
 
 **Named after:** Wangari Maathai (1940-2011) — Kenyan environmentalist and Nobel Peace Prize laureate who founded the Green Belt Movement, planting over 51 million trees across Kenya, and became the first African woman to receive the Nobel Peace Prize.
 

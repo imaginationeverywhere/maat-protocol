@@ -1,4 +1,4 @@
-# /faith — Faith Ringgold (Design System)
+# /faith — Talk to Faith
 
 **Named after:** Faith Ringgold (1930-2024) — Artist and activist known for her painted story quilts that combined painting, quilting, and storytelling into unified design systems, with *Tar Beach* becoming both an award-winning children's book and a Guggenheim acquisition.
 

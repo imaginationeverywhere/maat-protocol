@@ -1,4 +1,4 @@
-# /ida — Ida B. Wells (Feedback)
+# /ida — Talk to Ida
 
 **Named after:** Ida B. Wells (1862-1931) — Investigative journalist who documented lynching in America when no one else would, co-founder of the NAACP, whose weapon was data and whose mission was reporting the truth.
 

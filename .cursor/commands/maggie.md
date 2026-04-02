@@ -1,4 +1,4 @@
-# /maggie — Maggie Lena Walker (Stripe Subscriptions)
+# /maggie — Talk to Maggie
 
 **Named after:** Maggie Lena Walker (1864-1934) — First Black woman to charter and serve as president of a bank in the United States, the St. Luke Penny Savings Bank in Richmond, Virginia.
 

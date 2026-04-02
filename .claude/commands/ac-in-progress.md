@@ -8,7 +8,7 @@ Execute these commands to gather data:
 
 ```bash
 # Check tasks.json for in-progress
-cat .auto-claude/tasks.json 2>/dev/null | jq '.tasks[] | select(.status == "in-progress" or .status == "manual")'
+cat docs/status/tasks.json 2>/dev/null | jq '.tasks[] | select(.status == "in-progress" or .status == "manual")'
 
 # List git worktrees (Auto Claude uses worktrees)
 git worktree list

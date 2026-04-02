@@ -1,4 +1,4 @@
-# /fannie-lou — Fannie Lou Hamer (Deliverable Validator)
+# /fannie-lou — Talk to Fannie Lou
 
 **Named after:** Fannie Lou Hamer (1917-1977) — sharecropper turned civil rights leader. Beaten nearly to death for registering to vote, she testified before Congress and co-founded the Mississippi Freedom Democratic Party. "I'm sick and tired of being sick and tired." She never accepted substandard work.
 

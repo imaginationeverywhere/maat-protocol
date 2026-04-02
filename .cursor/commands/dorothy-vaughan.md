@@ -1,4 +1,4 @@
-# /dorothy-vaughan — Dorothy Vaughan (Testing Automation)
+# /dorothy-vaughan — Talk to Dorothy Vaughan
 
 **Named after:** Dorothy Vaughan (1910-2008) — NASA's first Black manager who taught herself FORTRAN programming to save her team when NASA switched to IBM electronic computers, leading the West Area Computing unit and automating calculations for the space program.
 

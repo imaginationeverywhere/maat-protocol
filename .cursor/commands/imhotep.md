@@ -1,4 +1,4 @@
-# /imhotep — Imhotep (Database)
+# /imhotep — Talk to Imhotep
 
 **Named after:** Imhotep (c. 2650-2600 BCE) — The world's first named architect and physician, who designed the Step Pyramid at Saqqara (the first monumental stone building in history), served as Chancellor to Pharaoh Djoser, and was later deified as a god of medicine and architecture.
 

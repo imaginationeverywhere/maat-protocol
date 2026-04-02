@@ -1,4 +1,4 @@
-# /ben — Benjamin Bradley (Android Specialist)
+# /ben — Talk to Uben
 
 **Named after:** Benjamin Bradley (1830-1897) — Enslaved engineer who built a steam engine to buy his freedom
 

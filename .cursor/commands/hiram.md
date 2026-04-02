@@ -1,4 +1,4 @@
-# /hiram — Hiram Rhodes Revels (PR Merge Management)
+# /hiram — Talk to Hiram
 
 **Named after:** Hiram Rhodes Revels (1827-1901) — First Black United States Senator, representing Mississippi in 1870, who took Jefferson Davis's former seat and integrated himself into the highest legislative body in the land.
 

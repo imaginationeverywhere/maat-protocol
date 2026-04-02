@@ -89,7 +89,7 @@ jq '.tasks[] |= if .id == "005" then
   .returnedAt = now |
   .progress = 60 |
   .handoffNotes = "[notes]"
-else . end' .auto-claude/tasks.json > tmp.json && mv tmp.json .auto-claude/tasks.json
+else . end' docs/status/tasks.json > tmp.json && mv tmp.json docs/status/tasks.json
 
 # Update GitHub
 gh issue edit [NUMBER] --remove-label "in-progress,manual,paused" --add-label "planning"

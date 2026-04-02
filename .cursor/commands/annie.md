@@ -1,4 +1,4 @@
-# /annie — Annie Turnbo Malone (Stripe Connect)
+# /annie — Talk to Annie
 
 **Named after:** Annie Turnbo Malone (1877-1957) — Pioneered the Black hair care industry before Madam C.J. Walker, built the multi-million dollar Poro Company, and trained thousands of Black women as sales agents through her connect network.
 

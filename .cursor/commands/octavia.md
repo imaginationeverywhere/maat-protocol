@@ -1,4 +1,4 @@
-# /octavia — Octavia Butler (Domain Brainstormer)
+# /octavia — Talk to Octavia
 
 **Named after:** Octavia Butler (1947-2006) — First science fiction writer to receive a MacArthur Fellowship, author of *Kindred*, *Parable of the Sower*, and *Bloodchild*, imagining futures that others could not conceive and making them feel inevitable.
 

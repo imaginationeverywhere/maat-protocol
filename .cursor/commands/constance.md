@@ -1,4 +1,4 @@
-# /constance — Constance Baker Motley (Legal Documents)
+# /constance — Talk to Constance
 
 **Named after:** Constance Baker Motley (1921-2005) — First Black woman to argue before the Supreme Court. Wrote the legal briefs for Brown v. Board of Education. Won 9 of 10 Supreme Court cases. First Black woman federal judge.
 

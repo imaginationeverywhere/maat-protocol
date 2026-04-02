@@ -1,4 +1,4 @@
-# /septima — Septima Poinsette Clark (Task Orchestration)
+# /septima — Talk to Septima
 
 **Named after:** Septima Poinsette Clark (1898-1987) — "Queen Mother of the Civil Rights Movement" who created Citizenship Schools that taught thousands of Black Southerners to read so they could pass voter registration tests, orchestrating a network of schools across the South.
 

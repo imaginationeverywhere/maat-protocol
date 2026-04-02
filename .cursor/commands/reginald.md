@@ -1,4 +1,4 @@
-# /reginald — Reginald F. Lewis (Business Requirements)
+# /reginald — Talk to Ureginald
 
 **Named after:** Reginald F. Lewis (1942-1993) — First Black American to build a billion-dollar company
 

@@ -1,4 +1,4 @@
-# /nannie — Nannie Helen Burroughs (TypeScript Frontend Enforcer)
+# /nannie — Talk to Nannie
 
 **Named after:** Nannie Helen Burroughs (1879-1961) — Founded the National Training School for Women and Girls in Washington, D.C., enforcing rigorous academic and vocational standards with the motto "We Specialize in the Wholly Impossible."
 

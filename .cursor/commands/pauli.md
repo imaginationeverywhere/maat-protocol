@@ -1,4 +1,4 @@
-# /pauli — Pauli Murray (Product Requirements)
+# /pauli — Talk to Upauli
 
 **Named after:** Pauli Murray (1910-1985) — Legal scholar whose writings became the foundation for Brown v. Board
 

@@ -1,4 +1,4 @@
-# /ella — Ella Baker (Project Management)
+# /ella — Talk to Ella
 
 **Named after:** Ella Baker (1903-1986) — Behind-the-scenes organizer who helped found the SCLC, mentored SNCC, and organized the Mississippi Freedom Democratic Party, bridging organizations and coordinating people all without seeking the spotlight.
 

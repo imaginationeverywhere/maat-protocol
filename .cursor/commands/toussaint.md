@@ -1,4 +1,4 @@
-# /toussaint — Toussaint Louverture (Plan Mode Orchestration)
+# /toussaint — Talk to Toussaint
 
 **Named after:** Toussaint Louverture (1743-1803) — Leader of the Haitian Revolution, the only successful slave revolution in history, who defeated the armies of Spain, Britain, and France to create the first free Black republic.
 

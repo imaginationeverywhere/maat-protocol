@@ -1,4 +1,4 @@
-# /daisy — Daisy Bates (Scrum Master)
+# /daisy — Talk to Daisy
 
 **Named after:** Daisy Bates (1914-1999) — Orchestrated the Little Rock Nine. She coordinated, tracked, and protected nine students integrating Central High School against violent opposition. The project manager who ensured the mission succeeded.
 

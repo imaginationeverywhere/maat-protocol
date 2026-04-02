@@ -1,4 +1,4 @@
-# /marcus — Marcus Garvey (Platform Sync)
+# /marcus — Talk to Marcus
 
 **Named after:** Marcus Garvey (1887-1940) — Founded the Universal Negro Improvement Association (UNIA), the largest Pan-African organization in history, operating in over 40 countries with millions of members.
 

@@ -1,4 +1,4 @@
-# /miriam — Miriam Makeba (Internationalization)
+# /miriam — Talk to Miriam
 
 **Named after:** Miriam Makeba (1932-2008) — "Mama Africa," South African singer, civil rights activist, and UN goodwill ambassador who sang in Xhosa, Zulu, Swahili, French, Portuguese, English, Spanish, Arabic, and Italian, bringing African music to the world stage while fighting apartheid.
 

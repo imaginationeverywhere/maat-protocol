@@ -1,4 +1,4 @@
-# /bessie — Bessie Coleman (Browser Navigation)
+# /bessie — Talk to Bessie
 
 **Named after:** Bessie Coleman (1892-1926) — First Black woman and first Native American woman to earn a pilot's license, learning French to attend flight school in France after American schools refused her, and refusing to perform at any segregated venue.
 

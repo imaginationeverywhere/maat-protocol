@@ -1,4 +1,4 @@
-# /wentworth — Wentworth Cheswell (Cybersecurity)
+# /wentworth — Talk to Wentworth
 
 **Named after:** Wentworth Cheswell (1746-1817) — first Black person elected to public office in America. Rode the same night as Paul Revere to warn of the British. Served as town assessor, moderator, and auditor for 30 years. Revere got the fame. Cheswell got erased. He watched, counted, verified, and protected.
 

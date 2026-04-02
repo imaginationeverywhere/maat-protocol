@@ -1,4 +1,4 @@
-# /phillis — Phillis Wheatley (Documentation)
+# /phillis — Talk to Phillis
 
 **Named after:** Phillis Wheatley (1753-1784) — First published African American poet, kidnapped from West Africa at age seven, she mastered English and Latin and produced literary works that challenged the notion that Africans were intellectually inferior. George Washington invited her to visit after she wrote a poem in his honor.
 
