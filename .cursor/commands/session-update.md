@@ -37,13 +37,7 @@ If you are Headquarters, also read:
 
 These are the WHY. The checkpoint is the WHAT. Both matter for HQ.
 
-### 6. Recreate Cron Job
-The /clear killed your cron. Recreate it:
-```
-CronCreate: every 5 minutes, read ~/auset-brain/Swarms/live-feed.md (last 10 lines) for messages from other sessions or HQ directives. Act on anything addressed to this team.
-```
-
-### 7. Confirm to Mo
+### 6. Confirm to Mo
 Display:
 ```
 SESSION UPDATED
@@ -52,7 +46,6 @@ SESSION UPDATED
   Checkpoint loaded: ✓
   Agenda loaded: ✓
   Feed checked: ✓
-  Cron restored: ✓
 
   LAST STATE:
   <2-3 lines from checkpoint — what was in progress>
@@ -64,7 +57,7 @@ SESSION UPDATED
 ━━━━━━━━━━━━━━━━━━━━
 ```
 
-### 8. Resume Work
+### 7. Resume Work
 **DO NOT ask Mo what to do.** The checkpoint and agenda tell you. Continue executing.
 
 ## What This Does NOT Do

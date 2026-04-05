@@ -215,18 +215,40 @@ Report any messages addressed to this team (look for `TO:<team-name>`).
 echo "$(date '+%H:%M:%S') | $(basename $(pwd)) | SESSION START | ${SWARM_TEAM:-Headquarters} | $(hostname -s)" >> ~/auset-brain/Swarms/live-feed.md
 ```
 
-**3. Start the Feed Watcher:**
+**3. Join the Swarm Telegraph (NON-NEGOTIABLE):**
+
+The Swarm Telegraph delivers messages between Claude Code sessions using two event-driven mechanisms. **NO CRON JOBS.**
+
+**Primary: Hook-based delivery (instant on next turn)**
+The `telegraph-check.sh` hook in `settings.json` automatically checks `/tmp/swarm-inboxes/<team>.md` on every UserPromptSubmit and Stop event. Messages appear as context the moment anyone types or the session pauses. Already wired in settings.json — no setup needed.
+
+**Backup: Event-driven daemons (replaces the old 5-minute cron)**
 ```bash
 .claude/scripts/feed-watcher.sh start
+.claude/scripts/swarm-telegraph.sh start
 ```
-This runs `tail -f` on the live feed in the background. It detects `AGENDA COMPLETE`, `REPORTING IN`, and `SESSION END` instantly and writes to `~/auset-brain/Swarms/hq-notifications.md`. Cost: **$0.00** — pure shell, no tokens, no API calls. The Stop hook in settings.json checks for notifications every time the session goes idle.
+- **Feed Watcher**: `tail -f` on live-feed.md — detects AGENDA COMPLETE, REPORTING IN, TO:*, DIRECTIVE events instantly and writes trigger files for the Stop hook.
+- **Swarm Telegraph**: `fswatch` on live-feed.md — routes TO:<TEAM> messages to team inbox files.
+- **Inbox Dispatcher** (auto-started by telegraph): `fswatch` on /tmp/swarm-inboxes/ — wakes ONLY the targeted session when a message arrives. Uses exponential backoff on failed deliveries (10s → 20s → 40s → cap 5min). Auto-terminates when all sessions are dead and all inboxes are empty. Zero wasted cycles.
+
+**DO NOT create CronCreate jobs for feed checking.** The old 5-minute cron fired on every idle session even when no messages existed. The inbox dispatcher + hook system handles all delivery event-driven.
+
+**To send a message to another team:**
+```bash
+.claude/scripts/swarm-telegraph.sh send <team> "Your message"
+```
+This writes to the feed (archive) AND the team's inbox file (delivery). The inbox dispatcher detects the inbox write via fswatch and wakes the target session immediately. NO prompt box injection. NO AppleScript keyboard injection. NO polling.
 
 **4. Write progress to the feed** every ~10 significant actions:
 ```bash
 echo "$(date '+%H:%M:%S') | $(basename $(pwd)) | PROGRESS | ${SWARM_TEAM:-HQ} | <what you just did>" >> ~/auset-brain/Swarms/live-feed.md
 ```
 
-**5. On task completion, the hook in settings.json auto-logs it.** No manual action needed.
+**5. Send messages to other teams** using the telegraph:
+```bash
+.claude/scripts/swarm-telegraph.sh send <team> "Your message here"
+```
+This writes to BOTH the feed (archive) and the team's inbox. The inbox dispatcher detects the new inbox file via fswatch and wakes the target session automatically. No manual inbox writes needed.
 
 **6. When you finish your agenda, report to HQ:**
 ```bash
@@ -234,9 +256,15 @@ echo "$(date '+%H:%M:%S') | $(basename $(pwd)) | AGENDA COMPLETE | ${SWARM_TEAM}
 ```
 HQ's feed watcher detects this instantly and will queue new tasks in the team registry. Read your section of the registry and continue working. Do NOT end your session — loop.
 
-**How this works:** The feed watcher (`tail -f`) runs in the background on every session. When any session writes to the feed, all other sessions' watchers detect it instantly. The Stop hook surfaces notifications when the session goes idle. Together = real-time swarm coordination with zero token cost for listening.
+**7. Check dispatcher status** (optional, for debugging):
+```bash
+.claude/scripts/inbox-dispatcher.sh status
+```
+Shows pending deliveries, session liveness, and backoff state for each team.
 
-**NO CRON JOBS.** Do NOT create CronCreate jobs for feed checking. The feed watcher + Stop hook handles this. Crons waste tokens printing "Nothing new" every 5 minutes on idle sessions. If you need to check the feed manually, just read the file.
+**How this works:** Two event-driven layers — (1) the feed watcher (`tail -f` on live-feed.md) detects events instantly and writes trigger files, (2) the inbox dispatcher (`fswatch` on /tmp/swarm-inboxes/) wakes target sessions the moment a message arrives. The telegraph-check hook surfaces messages on every UserPromptSubmit. Together = instant swarm coordination with zero polling.
+
+**NO CRON JOBS.** Do NOT create CronCreate jobs for feed checking. Crons waste tokens printing "Nothing new" every 5 minutes on idle sessions. The event-driven system handles everything.
 
 ## For Developers (Non-Founders)
 - Org gate check only
