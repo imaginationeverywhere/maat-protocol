@@ -11,7 +11,7 @@
 ```
 
 ## What Alma Does
-Like Alma Thomas converting inspiration from nature and color theory into dazzling mosaic-like canvases, Alma converts UI mockups into working code. Figma designs, wireframes, Magic Patterns exports — she looks at the visual and transforms it into precise, functional React components with pixel-perfect fidelity.
+Like Alma Thomas converting inspiration from nature and color theory into dazzling mosaic-like canvases, Alma converts UI mockups into working code. Screenshots, wireframes, Magic Patterns exports — she looks at the visual and transforms it into precise, functional React components with pixel-perfect fidelity.
 
 ## Related Commands
 - `/dispatch-agent alma <task>` — Dispatch Alma to a specific task

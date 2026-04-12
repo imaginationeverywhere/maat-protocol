@@ -199,7 +199,6 @@ Accept UI templates from Magic Patterns in any of these formats:
 | Format | Location | How to Analyze |
 |--------|----------|----------------|
 | **Screenshot** | `mockup/screenshots/` | Visual analysis, identify components |
-| **Figma File** | `mockup/figma/` | Inspect layers, design tokens |
 | **React/Vite Zip** | `mockup/react-vite/` | Code analysis, component structure |
 | **Prompt Code** | `mockup/prompt-export.tsx` | Parse JSX/TSX, identify components |
 
@@ -375,9 +374,8 @@ docs/
 
 mockup/
 ├── screenshots/    # Option 1: Screenshot images
-├── figma/          # Option 2: Figma export
-├── react-vite/     # Option 3: React/Vite zip
-└── prompt-export.tsx  # Option 4: Single file code export
+├── react-vite/     # Option 2: React/Vite zip
+└── prompt-export.tsx  # Option 3: Single file code export
 ```
 
 **Validation Checklist**:
@@ -397,15 +395,6 @@ Use visual analysis to identify:
 - UI components (forms, tables, cards, navigation)
 - Interactive elements (buttons, modals, dropdowns)
 - Layout patterns (responsive, sidebar, grid)
-```
-
-**For Figma Files** (`mockup/figma/`):
-```
-Inspect layers to extract:
-- Design tokens (colors, typography, spacing)
-- Component hierarchy
-- Page structure
-- Interactive states
 ```
 
 **For React/Vite Code** (`mockup/react-vite/` or `mockup/prompt-export.tsx`):
@@ -580,7 +569,7 @@ mkdir -p docs/auto-claude
 | Setting | Value |
 |---------|-------|
 | MOCKUP_TEMPLATE_CHOICE | [pattern] |
-| MOCKUP_SOURCE | [magic-patterns/figma/existing-ui/screenshot/template] |
+| MOCKUP_SOURCE | [magic-patterns/existing-ui/screenshot/template] |
 | MOCKUP_PATH | [path to mockup files] |
 
 ### Pattern Configuration (from pattern-mappings.json)
