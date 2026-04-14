@@ -2,7 +2,7 @@
 
 **COMMAND AUTHORITY**: This command has PRIMARY orchestration authority over project initialization, from requirements documents to MVP launch.
 
-**VERSION**: 4.3.0 - Auto-Claude Integration + Three-Tier Revenue Model
+**VERSION**: 4.3.0 - agent Integration + Three-Tier Revenue Model
 
 ---
 
@@ -1700,16 +1700,16 @@ After successful bootstrap, verify:
 
 ---
 
-## Auto-Claude Integration
+## agent Integration
 
-**Version 4.4.0**: Simplified Auto-Claude integration - plans stay in the project directory.
+**Version 4.4.0**: Simplified agent integration - plans stay in the project directory.
 
 ### How It Works
 
-Auto-Claude runs from `$HOME/Auto-Claude` but works directly on the project directory. Plans are stored **in the project itself** - no copying to a central location needed.
+agent runs from `$HOME/agent` but works directly on the project directory. Plans are stored **in the project itself** - no copying to a central location needed.
 
 ```
-Auto-Claude Location:  $HOME/Auto-Claude/
+agent Location:  $HOME/agent/
 Project Location:      {project-path}/
 Plan Location:         {project-path}/.internal/plans/bootstrap-plan.md
 ```
@@ -1720,7 +1720,7 @@ When `bootstrap-project` runs, it generates plans directly in the project:
 
 ```
 {project}/.internal/plans/
-└── bootstrap-plan.md    ← Auto-Claude reads this directly
+└── bootstrap-plan.md    ← agent reads this directly
 ```
 
 **That's it.** No copying, no central directory, no sync issues.
@@ -1791,8 +1791,8 @@ The generated `bootstrap-plan.md` follows this format:
    bootstrap-project --type=[client|internal-unicorn|white-label]
    ```
 
-4. **Execute with Auto-Claude**:
-   - Auto-Claude opens the project directory
+4. **Execute with agent**:
+   - agent opens the project directory
    - Reads `.internal/plans/bootstrap-plan.md`
    - Executes the sessions
 
@@ -1811,16 +1811,16 @@ The project lifecycle uses plans in the same location:
 └── roadmap-plan.md     ← project-status generates
 ```
 
-All plans stay in the project. Auto-Claude reads them directly.
+All plans stay in the project. agent reads them directly.
 
 ---
 
 ## Version History
 
-- **v4.4.0** (Current): Simplified Auto-Claude Integration
+- **v4.4.0** (Current): Simplified agent Integration
   - Plans now stay in project directory only (no central copy)
-  - Removed `$HOME/Auto-Claude/.internal/planning-tasks/` complexity
-  - Auto-Claude reads directly from `{project}/.internal/plans/`
+  - Removed `$HOME/agent/.internal/planning-tasks/` complexity
+  - agent reads directly from `{project}/.internal/plans/`
   - Simpler, no sync issues, cleaner approach
 - **v4.2.0**: Three-Tier Revenue Model
   - **TIER 1**: Internal Unicorn Products (10-20%+ margin)

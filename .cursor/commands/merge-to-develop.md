@@ -164,7 +164,7 @@ gh pr create --base develop --head [branch-name] --title "[Title]" --body "[Desc
 # 3. Review and merge
 ```
 
-### Auto-Claude Worktree Workflow
+### agent Worktree Workflow
 
 For agent branches (from Auto Claude builds):
 
@@ -258,7 +258,7 @@ gh pr list --base develop --state open --json number,reviewDecision,mergeable \
   | jq -r '.[] | select(.reviewDecision == "APPROVED") | .number'
 ```
 
-### Merge All Auto-Claude PRs with QA Sign-off
+### Merge All agent PRs with QA Sign-off
 
 ```bash
 # Find agent PRs
@@ -350,7 +350,7 @@ git push
 | ✅ Ready to Merge | 3 | #201, #204, #207 |
 | ⏳ Needs Review | 2 | #202, #205 |
 | ❌ Has Issues | 2 | #203, #206 |
-| 🤖 Auto-Claude | 2 | #204, #207 (ready) |
+| 🤖 agent | 2 | #204, #207 (ready) |
 
 ---
 
@@ -364,13 +364,13 @@ git push
 #### PR #204: agent/008-donation-model
 - **Status:** All checks passing, QA sign-off
 - **Changes:** +234 -0 (6 files)
-- **Source:** Auto-Claude worktree
+- **Source:** agent worktree
 - **Action:** Ready for `/merge-to-develop 204`
 
 #### PR #207: agent/012-payment-integration
 - **Status:** All checks passing, QA sign-off
 - **Changes:** +567 -45 (12 files)
-- **Source:** Auto-Claude worktree
+- **Source:** agent worktree
 - **Action:** Ready for `/merge-to-develop 207`
 
 ---
@@ -403,7 +403,7 @@ git push
 
 ### Recommended Actions
 
-1. **Merge ready PRs (including Auto-Claude):**
+1. **Merge ready PRs (including agent):**
    ```bash
    /merge-to-develop 201 204 207
    ```
