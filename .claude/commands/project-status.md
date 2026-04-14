@@ -1,6 +1,6 @@
 # Project Status Command
 
-**Version:** 2.2.0 (Simplified agent Integration)
+**Version:** 2.2.0 (Simplified Auto-Claude Integration)
 **Category:** Project Management
 **Stage:** Post-MVP (Day 31+)
 
@@ -1071,16 +1071,16 @@ const totalRevenue = platformRevenue.data.reduce(
 
 ---
 
-## agent Integration
+## Auto-Claude Integration
 
-**Version 2.2.0**: Simplified agent integration - plans stay in the project directory.
+**Version 2.2.0**: Simplified Auto-Claude integration - plans stay in the project directory.
 
 ### How It Works
 
-agent runs from `$HOME/agent` but works directly on the project directory. Plans are stored **in the project itself** - no copying to a central location needed.
+Auto-Claude runs from `$HOME/Auto-Claude` but works directly on the project directory. Plans are stored **in the project itself** - no copying to a central location needed.
 
 ```
-agent Location:  $HOME/agent/
+Auto-Claude Location:  $HOME/Auto-Claude/
 Project Location:      {project-path}/
 Plan Location:         {project-path}/.internal/plans/roadmap-plan.md
 ```
@@ -1092,7 +1092,7 @@ When `project-status` runs, it generates the roadmap plan directly in the projec
 ```
 {project}/.internal/plans/
 ├── mvp-plan.md        ← From project-mvp-status (if exists)
-└── roadmap-plan.md    ← agent reads this directly
+└── roadmap-plan.md    ← Auto-Claude reads this directly
 ```
 
 **That's it.** No copying, no central directory, no sync issues.
@@ -1149,8 +1149,8 @@ The generated `roadmap-plan.md` follows this format:
    - Quarterly plan: `docs/internal/QUARTERLY_PLAN.md`
    - Execution plan: `.internal/plans/roadmap-plan.md`
 
-3. **Execute with agent**:
-   - agent opens the project directory
+3. **Execute with Auto-Claude**:
+   - Auto-Claude opens the project directory
    - Reads `.internal/plans/roadmap-plan.md`
    - Executes the sessions
 

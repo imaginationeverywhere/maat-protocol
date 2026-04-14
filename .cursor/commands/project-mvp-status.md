@@ -1,6 +1,6 @@
 # Project MVP Status Command
 
-**Version:** 2.2.0 (Simplified agent Integration)
+**Version:** 2.2.0 (Simplified Auto-Claude Integration)
 **Category:** Project Management
 **Stage:** MVP Development (Days 1-30/60)
 
@@ -521,16 +521,16 @@ project-mvp-status --timeline
 
 ---
 
-## agent Integration
+## Auto-Claude Integration
 
-**Version 2.2.0**: Simplified agent integration - plans stay in the project directory.
+**Version 2.2.0**: Simplified Auto-Claude integration - plans stay in the project directory.
 
 ### How It Works
 
-agent runs from `$HOME/agent` but works directly on the project directory. Plans are stored **in the project itself** - no copying to a central location needed.
+Auto-Claude runs from `$HOME/Auto-Claude` but works directly on the project directory. Plans are stored **in the project itself** - no copying to a central location needed.
 
 ```
-agent Location:  $HOME/agent/
+Auto-Claude Location:  $HOME/Auto-Claude/
 Project Location:      {project-path}/
 Plan Location:         {project-path}/.internal/plans/mvp-plan.md
 ```
@@ -541,12 +541,12 @@ When `project-mvp-status` runs, it generates the MVP plan directly in the projec
 
 ```
 {project}/.internal/plans/
-└── mvp-plan.md    ← agent reads this directly
+└── mvp-plan.md    ← Auto-Claude reads this directly
 ```
 
 **That's it.** No copying, no central directory, no sync issues.
 
-### agent Plan Structure
+### Auto-Claude Plan Structure
 
 The generated `mvp-plan.md` follows this format:
 
@@ -593,8 +593,8 @@ The generated `mvp-plan.md` follows this format:
    - Status dashboard: `docs/internal/MVP_PROGRESS.md`
    - Execution plan: `.internal/plans/mvp-plan.md`
 
-3. **Execute with agent**:
-   - agent opens the project directory
+3. **Execute with Auto-Claude**:
+   - Auto-Claude opens the project directory
    - Reads `.internal/plans/mvp-plan.md`
    - Executes the sessions
 
@@ -627,7 +627,7 @@ gh pr list --state open
 # Merge all approved PRs targeting develop
 /merge-to-develop --all-approved
 
-# Merge from completed worktrees (agent branches)
+# Merge from completed worktrees (Auto-Claude branches)
 /merge-to-develop --from-worktrees
 ```
 

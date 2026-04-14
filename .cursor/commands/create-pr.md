@@ -7,7 +7,7 @@
 
 ## Overview
 
-Create pull requests targeting develop or main branches, with support for creating new branches and working with agent worktrees.
+Create pull requests targeting develop or main branches, with support for creating new branches and working with Auto-Claude worktrees.
 
 ## Usage
 
