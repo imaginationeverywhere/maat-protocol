@@ -35,6 +35,8 @@ Synchronize Auset platform files (commands, plans, agents, cheat sheets, skills)
 - `--list` — List all discovered Heru projects
 - `--include-cursor` — Also mirror to `.cursor/` directories (default: true)
 - `--no-cursor` — Skip `.cursor/` mirroring
+- `--include-clara` — Also mirror to `.clara/` directories (default: true)
+- `--no-clara` — Skip `.clara/` mirroring
 - `--push` — After syncing files, git add + commit + push each Heru to its remote
 - `--push-only` — Skip file sync, just git commit + push any pending changes in each Heru
 - `--commit-message <msg>` — Custom commit message (default: "chore(auset): sync platform commands from boilerplate")
@@ -186,6 +188,16 @@ if [ -d "$PROJECT/.cursor" ]; then
   cp "$SRC/.claude/COMMAND_CHEAT_SHEET.md" "$PROJECT/.cursor/" 2>/dev/null
 fi
 
+# Mirror to .clara if it exists and --no-clara not set
+# .clara/ is the Clara Code CLI project config directory — first-class citizen alongside .cursor/
+if [ -d "$PROJECT/.clara" ] || [ "$INCLUDE_CLARA" = true ]; then
+  mkdir -p "$PROJECT/.clara/commands" "$PROJECT/.clara/scripts"
+  cp "$SRC/.claude/commands/"*.md "$PROJECT/.clara/commands/" 2>/dev/null
+  cp "$SRC/.claude/scripts/"*.sh "$PROJECT/.clara/scripts/" 2>/dev/null
+  chmod +x "$PROJECT/.clara/scripts/"*.sh 2>/dev/null
+  cp "$SRC/.claude/COMMAND_CHEAT_SHEET.md" "$PROJECT/.clara/" 2>/dev/null
+fi
+
 # When --standards: also copy docs/standards, docs/cloudflare file, docs/deployment files,
 # docs/prompts tree, and CONTEXT_EFFICIENCY.md (see Step 2 list). Stage these in Step 5 with:
 #   git add docs/ CONTEXT_EFFICIENCY.md
@@ -197,7 +209,7 @@ fi
 SYNC COMPLETE — Auset Platform → All Herus
 
   Files synced: 148 command files + 1 cheat sheet
-  Herus updated: 53 (.claude) + 34 (.cursor mirrors)
+  Herus updated: 53 (.claude) + 34 (.cursor mirrors) + 53 (.clara mirrors)
   Total copies: 348 files
 
   Updated Herus:
@@ -248,7 +260,11 @@ if [ ! -d "$PROJECT/.git" ]; then
 fi
 
 # 2. Check it has a remote
-REMOTE=$(cd "$PROJECT" && git remote 2>/dev/null | head -1)
+# Prefer "origin"; fall through to first remote only if origin doesn't exist.
+# Avoids picking a multi-remote project's secondary (e.g. "boilerplate") when
+# the project has both `origin` and a sync-only remote — caught 2026-04-27 on
+# dreamihaircare which had a stray "boilerplate" remote sorting before "origin".
+REMOTE=$(cd "$PROJECT" && (git remote 2>/dev/null | grep -x origin || git remote 2>/dev/null | head -1))
 if [ -z "$REMOTE" ]; then
   echo "SKIP (no remote): $PROJECT"
   continue
@@ -269,7 +285,7 @@ COMMIT_MSG="${CUSTOM_MSG:-chore(auset): sync platform commands from boilerplate}
 cd "$PROJECT"
 
 # Stage only platform-sync paths (never stage unrelated app code)
-git add .claude/ .cursor/ 2>/dev/null
+git add .claude/ .cursor/ .clara/ 2>/dev/null
 # If the last sync included --standards, also stage:
 git add docs/standards docs/cloudflare docs/deployment docs/migrations docs/prompts CONTEXT_EFFICIENCY.md 2>/dev/null
 
@@ -308,6 +324,8 @@ done
 - `.claude/COMMAND_CHEAT_SHEET.md` — Quick reference
 - `.claude/plans/micro/*.md` — Micro plans (when using --plans)
 - `.claude/agents/*.md` — Agent definitions (when using --agents)
+- `.cursor/commands/` `.cursor/scripts/` `.cursor/COMMAND_CHEAT_SHEET.md` — Cursor mirror (when `.cursor/` exists)
+- `.clara/commands/` `.clara/scripts/` `.clara/COMMAND_CHEAT_SHEET.md` — Clara Code CLI mirror (first-class, always written)
 - **With `--standards`:** `docs/standards/*`, selected `docs/deployment/*.md`, `docs/cloudflare/NEXTJS-CLOUDFLARE-WORKERS-DEPLOYMENT.md`, `docs/cloudflare/AMPLIFY-TO-CLOUDFLARE-MIGRATION.md`, `docs/migrations/README.md`, full `docs/prompts/`, root `CONTEXT_EFFICIENCY.md` (see Step 2 list)
 
 ### NEVER SYNCED (Project-specific)

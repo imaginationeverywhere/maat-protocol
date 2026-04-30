@@ -101,22 +101,24 @@ tmux has-session -t swarm 2>/dev/null || {
 ```bash
 resolve_path() {
   case "$1" in
-    ST)     echo "~/projects/seeking-talent" ;;
-    WCR)    echo "~/projects/world-cup-ready" ;;
-    QCR)    echo "~/projects/quikcarrental" ;;
-    FMO)    echo "~/projects/fmo" ;;
-    QN)     echo "~/projects/quiknation" ;;
-    QCARRY) echo "~/projects/quikcarry" ;;
-    TRK)    echo "~/projects/trackit" ;;
-    TRK_POC|TRKPOC|TRK-POC) echo "~/projects/trackit-poc" ;;
-    KLS)    echo "~/projects/kingluxuryservices-v2" ;;
-    S962)   echo "~/projects/site962" ;;
-    CA)     echo "~/projects/claraagents" ;;
-    CC)     echo "~/projects/clara-code" ;;
-    CSAFE)  echo "~/projects/clarasafe" ;;
-    CP)     echo "~/projects/clara-platform-runtime" ;;
-    PKGS)   echo "~/projects/auset-packages" ;;
-    BP)     echo "~/projects/quik-nation-ai-boilerplate" ;;
+    ST)     echo "~/projects/clients/seeking-talent" ;;
+    WCR)    echo "~/projects/clients/world-cup-ready" ;;
+    FMO)    echo "~/projects/clients/fmo" ;;
+    KLS)    echo "~/projects/clients/kls" ;;
+    TRK)    echo "~/projects/clients/trackit" ;;
+    TRK_POC|TRKPOC|TRK-POC) echo "~/projects/clients/trackit-poc" ;;
+    QCR)    echo "~/projects/Quik-Nation/quikcarrental" ;;
+    QN)     echo "~/projects/Quik-Nation/quiknation" ;;
+    QCARRY) echo "~/projects/Quik-Nation/quikcarry" ;;
+    S962)   echo "~/projects/Quik-Nation/site962" ;;
+    CA)     echo "~/projects/AI/claraagents" ;;
+    CC)     echo "~/projects/AI/clara-code" ;;
+    CH)     echo "~/projects/AI/clara-harness" ;;
+    CSAFE)  echo "~/projects/AI/clarasafe" ;;
+    CP)     echo "~/projects/AI/clara-platform-runtime" ;;
+    PKGS)   echo "~/projects/AI/auset-packages" ;;
+    BP)     echo "~/projects/AI/quik-nation-ai-boilerplate" ;;
+    DEVOPS) echo "~/projects/AI/quik-nation-devops" ;;
     *) echo "" ;;
   esac
 }
